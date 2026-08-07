@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact — Sunharbor Renewable Energy</title>
+  <meta name="description" content="Contact Sunharbor for further information about green energy — request a quote or book a free site survey.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&family=Roboto:wght@400;500&family=Barlow:wght@500;600&family=Mrs+Saint+Delafield&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ======= Topbar ======= -->
+  <div class="topbar py-2 d-none d-lg-block">
+    <div class="container d-flex justify-content-between align-items-center">
+      <div class="d-flex gap-4">
+        <span><i class="bi bi-clock-fill me-2"></i>hours: Mon-Fri: 8am – 7pm</span>
+        <span><i class="bi bi-geo-alt-fill me-2"></i>234 Triumph, Los Angeles, California, US</span>
+      </div>
+      <div class="d-flex align-items-center">
+        <div class="topbar-links">
+          <a href="#">Press Release</a>
+          <a href="#">Careers</a>
+          <a href="services.html#faqs">FaQS</a>
+        </div>
+        <div class="topbar-social ms-3">
+          <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+          <a href="#" aria-label="TikTok"><i class="bi bi-tiktok"></i></a>
+          <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======= Navbar ======= -->
+  <nav class="navbar navbar-expand-lg navbar-main sticky-top" id="mainNav">
+    <div class="container">
+      <a class="brand-logo" href="index.html">
+        <svg width="32" height="32" viewBox="0 0 36 36" aria-hidden="true">
+          <path d="M17 32 C8 24 5 12 14 3 C19 10 20 22 17 32 Z" fill="#1D6E49"/>
+          <path d="M19 32 C28 25 31 13 23 4 C18 11 16 22 19 32 Z" fill="#31C36C"/>
+        </svg>
+        <span>Sunharbor</span>
+      </a>
+      <div class="d-none d-lg-flex align-items-center gap-2 ms-4">
+        <button class="icon-btn" type="button" data-bs-toggle="modal" data-bs-target="#searchModal" aria-label="Search"><i class="bi bi-search"></i></button>
+        <button class="icon-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#contactPanel" aria-controls="contactPanel" aria-label="Open contact panel"><i class="bi bi-list" style="font-size:1.45rem"></i></button>
+      </div>
+      <a href="contact.html" class="nav-cta d-none d-lg-inline-flex ms-3">Request Quote</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="index.html">Homepage</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="services.html">Service</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#portfolio">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#news">News</a></li>
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="contact.html">Contact</a></li>
+        </ul>
+        <a href="contact.html" class="nav-cta d-lg-none mt-2 mb-2">Request Quote</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ======= Offcanvas contact panel ======= -->
+  <div class="offcanvas offcanvas-end offcanvas-contact" tabindex="-1" id="contactPanel" aria-labelledby="contactPanelLabel">
+    <div class="offcanvas-body position-relative">
+      <button type="button" class="btn-close position-absolute top-0 end-0 m-3" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      <span class="section-tag">Contact</span>
+      <h3 class="mt-3 mb-3" id="contactPanelLabel">For Further Info, Please Contact Us With This Line</h3>
+      <p class="mb-4">Our team answers every message within one business day — surveys, quotes and honest advice included.</p>
+      <ul class="oc-list">
+        <li><i class="bi bi-check2-circle"></i>234 Triumph, Los Angeles, California, US</li>
+        <li><i class="bi bi-check2-circle"></i><a href="tel:+187643987247">+1 876 43987 247</a></li>
+        <li><i class="bi bi-check2-circle"></i><a href="mailto:hello@sunharbor.energy">hello@sunharbor.energy</a></li>
+      </ul>
+      <a href="contact.html" class="btn-brand mt-4">Request Quote</a>
+    </div>
+  </div>
+
+  <!-- ======= Search modal ======= -->
+  <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content p-3" style="border-radius:14px">
+        <div class="modal-body">
+          <form class="d-flex gap-2" role="search" onsubmit="return false">
+            <label class="visually-hidden" for="siteSearch" id="searchModalLabel">Search</label>
+            <input type="search" id="siteSearch" class="form-control form-control-brand" placeholder="Search…">
+            <button class="btn-brand" type="submit"><i class="bi bi-search"></i></button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======= Page hero ======= -->
+  <header class="page-hero">
+    <div class="container position-relative">
+      <div class="row align-items-center g-4">
+        <div class="col-lg-8">
+          <span class="hero-eyebrow reveal">Contact</span>
+          <h1 class="display-hero reveal reveal-delay-1">Contact Us for Further<br class="d-none d-md-block"> Information About<br class="d-none d-md-block"> Green Energy.</h1>
+          <a href="#contactForm" class="btn-brand mt-4 reveal reveal-delay-2">Send a Message</a>
+        </div>
+        <div class="col-lg-4 text-lg-center reveal reveal-delay-2">
+          <a href="#info" class="play-ring" aria-label="Watch our intro video"><i class="bi bi-play-fill"></i></a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ======= Contact info cards ======= -->
+  <section class="py-5" id="info">
+    <div class="container py-lg-4">
+      <div class="text-center mb-5">
+        <span class="section-tag reveal">Get In Touch</span>
+        <h2 class="section-title mt-2 reveal">For Further Info, Please <span class="script-accent">Contact Us</span></h2>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-3 reveal">
+          <div class="contact-card">
+            <span class="cc-icon"><i class="bi bi-geo-alt"></i></span>
+            <h5 class="h6">Our Address</h5>
+            <p class="small mb-0">234 Triumph, Los Angeles,<br>California, US</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 reveal reveal-delay-1">
+          <div class="contact-card">
+            <span class="cc-icon"><i class="bi bi-telephone"></i></span>
+            <h5 class="h6">Call Us</h5>
+            <p class="small mb-0"><a href="tel:+187643987247" class="text-reset">+1 876 43987 247</a><br>Mon – Fri, 8am – 7pm</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 reveal reveal-delay-2">
+          <div class="contact-card">
+            <span class="cc-icon"><i class="bi bi-envelope"></i></span>
+            <h5 class="h6">Email Us</h5>
+            <p class="small mb-0"><a href="mailto:hello@sunharbor.energy" class="text-reset">hello@sunharbor.energy</a><br>We reply within one business day</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 reveal reveal-delay-3">
+          <div class="contact-card">
+            <span class="cc-icon"><i class="bi bi-clock"></i></span>
+            <h5 class="h6">Working Hours</h5>
+            <p class="small mb-0">Monday – Friday<br>8:00 am – 7:00 pm</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= Form + info ======= -->
+  <section class="bg-light-brand py-5">
+    <div class="container py-lg-4">
+      <div class="row g-5 align-items-center">
+        <div class="col-lg-5">
+          <span class="section-tag reveal">Request a Quote</span>
+          <h2 class="section-title mt-2 reveal">Start Your <span class="script-accent">Green Energy</span> Journey</h2>
+          <p class="mt-3 reveal reveal-delay-1">
+            Tell us a little about your property and energy needs. One of our
+            engineers will get back to you with a free survey booking and a
+            clear, no-obligation estimate.
+          </p>
+          <div class="d-flex flex-column gap-3 mt-4">
+            <div class="check-item reveal reveal-delay-1">
+              <i class="bi bi-check-circle-fill"></i>
+              <div><h6>Free Site Survey</h6><p class="mb-0 small">No cost, no commitment assessment of your property.</p></div>
+            </div>
+            <div class="check-item reveal reveal-delay-2">
+              <i class="bi bi-check-circle-fill"></i>
+              <div><h6>Clear Pricing</h6><p class="mb-0 small">A written quote with no hidden fees or surprises.</p></div>
+            </div>
+            <div class="check-item reveal reveal-delay-3">
+              <i class="bi bi-check-circle-fill"></i>
+              <div><h6>Fast Response</h6><p class="mb-0 small">Hear back from a real engineer within one business day.</p></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-7 reveal reveal-delay-1">
+          <div class="contact-form-wrap">
+            <h4 class="h5 mb-4">Send Us a Message</h4>
+            <form id="contactForm" novalidate>
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label class="form-label" for="cfName">Full Name <span class="text-danger">*</span></label>
+                  <input type="text" class="form-control form-control-brand" id="cfName" placeholder="Your name" required>
+                  <div class="invalid-feedback">Please enter your name.</div>
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label" for="cfEmail">Email Address <span class="text-danger">*</span></label>
+                  <input type="email" class="form-control form-control-brand" id="cfEmail" placeholder="you@example.com" required>
+                  <div class="invalid-feedback">Please enter a valid email address.</div>
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label" for="cfPhone">Phone</label>
+                  <input type="tel" class="form-control form-control-brand" id="cfPhone" placeholder="+1 000 000 0000" autocomplete="tel">
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label" for="cfService">Service Interested In</label>
+                  <select class="form-select form-control-brand" id="cfService">
+                    <option selected>Solar Panels</option>
+                    <option>Wind Turbine</option>
+                    <option>Eco Battery</option>
+                    <option>Hybrid Power System</option>
+                    <option>Smart Home Automation</option>
+                    <option>Other / Not sure yet</option>
+                  </select>
+                </div>
+                <div class="col-12">
+                  <label class="form-label" for="cfMessage">Message <span class="text-danger">*</span></label>
+                  <textarea class="form-control form-control-brand" id="cfMessage" rows="5" placeholder="Tell us about your property and energy goals…" required></textarea>
+                  <div class="invalid-feedback">Please write a short message.</div>
+                </div>
+                <div class="col-12 d-flex align-items-center gap-3 flex-wrap">
+                  <button type="submit" class="btn-brand">Send Message <i class="bi bi-send"></i></button>
+                  <span id="formStatus" class="small" role="status" aria-live="polite"></span>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= Map ======= -->
+  <section class="py-5">
+    <div class="container py-lg-4">
+      <div class="text-center mb-5">
+        <span class="section-tag reveal">Find Us</span>
+        <h2 class="section-title mt-2 reveal">Visit Our <span class="script-accent">Office</span></h2>
+      </div>
+      <div class="map-embed reveal">
+        <iframe
+          src="https://maps.google.com/maps?q=Los%20Angeles%2C%20California&t=&z=12&ie=UTF8&iwloc=&output=embed"
+          title="Sunharbor office location map"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= CTA band ======= -->
+  <section class="pb-5">
+    <div class="container">
+      <div class="cta-band p-4 p-lg-5 reveal">
+        <div class="row align-items-center position-relative g-4">
+          <div class="col-lg-8">
+            <h2 class="h3 mb-2">Prefer to Talk Right Now?</h2>
+            <p class="mb-0 text-white-50">Call us Mon–Fri, 8am–7pm — a real engineer picks up, not a bot.</p>
+          </div>
+          <div class="col-lg-4 text-lg-end">
+            <a href="tel:+187643987247" class="btn-brand-light"><i class="bi bi-telephone"></i> +1 876 43987 247</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= Footer ======= -->
+  <footer class="footer pt-5">
+    <div class="container">
+      <div class="row g-4 pb-4">
+        <div class="col-lg-4">
+          <a class="brand-logo mb-3" href="index.html">
+            <svg width="32" height="32" viewBox="0 0 36 36" aria-hidden="true">
+              <path d="M17 32 C8 24 5 12 14 3 C19 10 20 22 17 32 Z" fill="#1D6E49"/>
+              <path d="M19 32 C28 25 31 13 23 4 C18 11 16 22 19 32 Z" fill="#31C36C"/>
+            </svg>
+            <span>Sunharbor</span>
+          </a>
+          <p class="mt-3 pe-lg-4">
+            Clean, dependable renewable energy for homes and industry. From the first
+            survey to lifetime maintenance, we make going green simple.
+          </p>
+          <div class="footer-social d-flex gap-2 mt-3">
+            <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" aria-label="TikTok"><i class="bi bi-tiktok"></i></a>
+            <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+        <div class="col-6 col-lg-2">
+          <h5>Quicklinks</h5>
+          <ul>
+            <li><a href="index.html"><i class="bi bi-chevron-right"></i>Homepage</a></li>
+            <li><a href="about.html"><i class="bi bi-chevron-right"></i>About Us</a></li>
+            <li><a href="services.html"><i class="bi bi-chevron-right"></i>Service</a></li>
+            <li><a href="contact.html"><i class="bi bi-chevron-right"></i>Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-lg-2">
+          <h5>Services</h5>
+          <ul>
+            <li><a href="services.html"><i class="bi bi-chevron-right"></i>Solar Panels</a></li>
+            <li><a href="services.html"><i class="bi bi-chevron-right"></i>Wind Turbine</a></li>
+            <li><a href="services.html"><i class="bi bi-chevron-right"></i>Eco Battery</a></li>
+            <li><a href="services.html"><i class="bi bi-chevron-right"></i>Smart Home</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4">
+          <h5>Newsletter</h5>
+          <p class="small">Get monthly tips on saving energy and the latest green tech news.</p>
+          <form class="d-flex gap-2 newsletter-form" novalidate>
+            <label class="visually-hidden" for="newsletterEmail">Email address</label>
+            <input type="email" id="newsletterEmail" class="form-control newsletter-input" placeholder="Your email address" required>
+            <button class="btn-brand" type="submit" aria-label="Subscribe"><i class="bi bi-send"></i></button>
+          </form>
+          <ul class="mt-3">
+            <li><i class="bi bi-geo-alt text-secondary-brand me-2"></i>234 Triumph, Los Angeles, CA</li>
+            <li><i class="bi bi-telephone text-secondary-brand me-2"></i>+1 876 43987 247</li>
+            <li><i class="bi bi-envelope text-secondary-brand me-2"></i>hello@sunharbor.energy</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom py-3 d-flex flex-column flex-md-row justify-content-between gap-2">
+        <span>© 2026 Sunharbor. All rights reserved.</span>
+        <span><a href="#">Terms</a> · <a href="#">Conditions</a> · <a href="#">Privacy</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" class="back-to-top" id="backToTop" aria-label="Back to top"><i class="bi bi-arrow-up"></i></a>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

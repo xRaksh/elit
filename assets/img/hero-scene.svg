@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 520" role="img" aria-label="Illustration of solar panels and wind turbines">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#16394f"/>
+      <stop offset="1" stop-color="#0E2A3B"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2a5e80"/>
+      <stop offset="1" stop-color="#16394f"/>
+    </linearGradient>
+    <linearGradient id="hill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#31C36C"/>
+      <stop offset="1" stop-color="#1e8f4d"/>
+    </linearGradient>
+    <radialGradient id="sunGlow" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#FFCC28" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#FFCC28" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="640" height="520" rx="28" fill="url(#sky)"/>
+  <circle cx="500" cy="110" r="120" fill="url(#sunGlow)"/>
+  <circle cx="500" cy="110" r="46" fill="#FFCC28"/>
+  <g stroke="#ffffff" stroke-opacity=".14" stroke-width="2">
+    <circle cx="120" cy="90" r="34" fill="none"/>
+    <circle cx="180" cy="170" r="14" fill="none"/>
+  </g>
+  <!-- wind turbines -->
+  <g fill="#F0EFE4">
+    <g transform="translate(150,150)">
+      <rect x="-5" y="0" width="10" height="190" rx="5"/>
+      <circle r="12"/>
+      <g>
+        <path d="M0,0 L10,-95 L-10,-95 Z" transform="rotate(15)"/>
+        <path d="M0,0 L10,-95 L-10,-95 Z" transform="rotate(135)"/>
+        <path d="M0,0 L10,-95 L-10,-95 Z" transform="rotate(255)"/>
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="9s" repeatCount="indefinite"/>
+      </g>
+    </g>
+    <g transform="translate(275,215) scale(.7)">
+      <rect x="-5" y="0" width="10" height="190" rx="5"/>
+      <circle r="12"/>
+      <g>
+        <path d="M0,0 L10,-95 L-10,-95 Z" transform="rotate(70)"/>
+        <path d="M0,0 L10,-95 L-10,-95 Z" transform="rotate(190)"/>
+        <path d="M0,0 L10,-95 L-10,-95 Z" transform="rotate(310)"/>
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="7s" repeatCount="indefinite"/>
+      </g>
+    </g>
+  </g>
+  <!-- hills -->
+  <path d="M0,400 Q160,330 320,392 T640,375 V520 H0 Z" fill="url(#hill)"/>
+  <path d="M0,440 Q220,390 420,445 T640,430 V520 H0 Z" fill="#1e8f4d" opacity=".85"/>
+  <!-- solar array -->
+  <g transform="translate(360,330)">
+    <g transform="skewX(-14)">
+      <rect x="0" y="0" width="210" height="118" rx="8" fill="url(#panel)" stroke="#EDF6FE" stroke-opacity=".4" stroke-width="2"/>
+      <g stroke="#EDF6FE" stroke-opacity=".35" stroke-width="2">
+        <line x1="70" y1="0" x2="70" y2="118"/>
+        <line x1="140" y1="0" x2="140" y2="118"/>
+        <line x1="0" y1="40" x2="210" y2="40"/>
+        <line x1="0" y1="79" x2="210" y2="79"/>
+      </g>
+      <rect x="8" y="8" width="52" height="24" rx="4" fill="#FFCC28" opacity=".85"/>
+    </g>
+    <rect x="30" y="118" width="12" height="46" fill="#0b2130"/>
+    <rect x="150" y="118" width="12" height="46" fill="#0b2130"/>
+  </g>
+  <!-- house -->
+  <g transform="translate(70,395)">
+    <rect x="0" y="30" width="110" height="72" rx="6" fill="#F0EFE4"/>
+    <path d="M-12,34 L55,-14 L122,34 Z" fill="#0E2A3B" stroke="#F0EFE4" stroke-width="3"/>
+    <rect x="14" y="52" width="24" height="24" rx="4" fill="#31C36C"/>
+    <rect x="66" y="52" width="28" height="50" rx="4" fill="#0E2A3B"/>
+    <g transform="translate(16,-2) skewX(-30)"><rect width="56" height="26" rx="3" fill="#2a5e80" stroke="#EDF6FE" stroke-width="2"/></g>
+  </g>
+  <!-- energy dots -->
+  <g fill="#31C36C">
+    <circle cx="330" cy="120" r="5"><animate attributeName="cy" values="120;108;120" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="90" cy="250" r="4" opacity=".7"><animate attributeName="cy" values="250;238;250" dur="4s" repeatCount="indefinite"/></circle>
+    <circle cx="590" cy="260" r="6" opacity=".8"><animate attributeName="cy" values="260;246;260" dur="3.4s" repeatCount="indefinite"/></circle>
+  </g>
+</svg>

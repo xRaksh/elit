@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About — Sunharbor Renewable Energy</title>
+  <meta name="description" content="Learn about Sunharbor — a trusted green energy company delivering solar, wind and storage solutions since 1999.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&family=Roboto:wght@400;500&family=Barlow:wght@500;600&family=Mrs+Saint+Delafield&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ======= Topbar ======= -->
+  <div class="topbar py-2 d-none d-lg-block">
+    <div class="container d-flex justify-content-between align-items-center">
+      <div class="d-flex gap-4">
+        <span><i class="bi bi-clock-fill me-2"></i>hours: Mon-Fri: 8am – 7pm</span>
+        <span><i class="bi bi-geo-alt-fill me-2"></i>234 Triumph, Los Angeles, California, US</span>
+      </div>
+      <div class="d-flex align-items-center">
+        <div class="topbar-links">
+          <a href="#">Press Release</a>
+          <a href="#">Careers</a>
+          <a href="services.html#faqs">FaQS</a>
+        </div>
+        <div class="topbar-social ms-3">
+          <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+          <a href="#" aria-label="TikTok"><i class="bi bi-tiktok"></i></a>
+          <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======= Navbar ======= -->
+  <nav class="navbar navbar-expand-lg navbar-main sticky-top" id="mainNav">
+    <div class="container">
+      <a class="brand-logo" href="index.html">
+        <svg width="32" height="32" viewBox="0 0 36 36" aria-hidden="true">
+          <path d="M17 32 C8 24 5 12 14 3 C19 10 20 22 17 32 Z" fill="#1D6E49"/>
+          <path d="M19 32 C28 25 31 13 23 4 C18 11 16 22 19 32 Z" fill="#31C36C"/>
+        </svg>
+        <span>Sunharbor</span>
+      </a>
+      <div class="d-none d-lg-flex align-items-center gap-2 ms-4">
+        <button class="icon-btn" type="button" data-bs-toggle="modal" data-bs-target="#searchModal" aria-label="Search"><i class="bi bi-search"></i></button>
+        <button class="icon-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#contactPanel" aria-controls="contactPanel" aria-label="Open contact panel"><i class="bi bi-list" style="font-size:1.45rem"></i></button>
+      </div>
+      <a href="contact.html" class="nav-cta d-none d-lg-inline-flex ms-3">Request Quote</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="index.html">Homepage</a></li>
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="services.html">Service</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#portfolio">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#news">News</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+        <a href="contact.html" class="nav-cta d-lg-none mt-2 mb-2">Request Quote</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ======= Offcanvas contact panel ======= -->
+  <div class="offcanvas offcanvas-end offcanvas-contact" tabindex="-1" id="contactPanel" aria-labelledby="contactPanelLabel">
+    <div class="offcanvas-body position-relative">
+      <button type="button" class="btn-close position-absolute top-0 end-0 m-3" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      <span class="section-tag">Contact</span>
+      <h3 class="mt-3 mb-3" id="contactPanelLabel">For Further Info, Please Contact Us With This Line</h3>
+      <p class="mb-4">Our team answers every message within one business day — surveys, quotes and honest advice included.</p>
+      <ul class="oc-list">
+        <li><i class="bi bi-check2-circle"></i>234 Triumph, Los Angeles, California, US</li>
+        <li><i class="bi bi-check2-circle"></i><a href="tel:+187643987247">+1 876 43987 247</a></li>
+        <li><i class="bi bi-check2-circle"></i><a href="mailto:hello@sunharbor.energy">hello@sunharbor.energy</a></li>
+      </ul>
+      <a href="contact.html" class="btn-brand mt-4">Request Quote</a>
+    </div>
+  </div>
+
+  <!-- ======= Search modal ======= -->
+  <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content p-3" style="border-radius:14px">
+        <div class="modal-body">
+          <form class="d-flex gap-2" role="search" onsubmit="return false">
+            <label class="visually-hidden" for="siteSearch" id="searchModalLabel">Search</label>
+            <input type="search" id="siteSearch" class="form-control form-control-brand" placeholder="Search…">
+            <button class="btn-brand" type="submit"><i class="bi bi-search"></i></button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======= Page hero ======= -->
+  <header class="page-hero">
+    <div class="container position-relative">
+      <div class="row align-items-center g-4">
+        <div class="col-lg-8">
+          <span class="hero-eyebrow reveal">About</span>
+          <h1 class="display-hero reveal reveal-delay-1">The Great Green Energy<br class="d-none d-md-block"> Company Since 1999.</h1>
+          <a href="#values" class="btn-brand mt-4 reveal reveal-delay-2">Our Story</a>
+        </div>
+        <div class="col-lg-4 text-lg-center reveal reveal-delay-2">
+          <a href="#values" class="play-ring" aria-label="Watch our story"><i class="bi bi-play-fill"></i></a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ======= Intro ======= -->
+  <section class="py-5">
+    <div class="container py-lg-4 text-center">
+      <span class="section-tag reveal">Since 1999</span>
+      <h2 class="section-title mt-2 reveal">The Great <span class="script-accent">Green Energy</span> Company</h2>
+      <p class="mx-auto mt-3 reveal reveal-delay-1" style="max-width:680px">
+        What began as a two-person rooftop crew is now a full-service renewable
+        energy company with more than 120 engineers and staff. We believe clean
+        power should be simple, affordable and built to last a lifetime.
+      </p>
+      <div class="row justify-content-center mt-4">
+        <div class="col-lg-8 reveal reveal-delay-2">
+          <div class="position-relative rounded-4 overflow-hidden shadow">
+            <img src="assets/img/hero-scene.svg" alt="Solar and wind energy landscape" class="w-100 d-block">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= Core values ======= -->
+  <section class="bg-light-brand py-5" id="values">
+    <div class="container py-lg-4">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-6">
+          <span class="section-tag reveal">Our Core Values</span>
+          <h2 class="section-title mt-2 reveal">Sustainable Living, <span class="script-accent">Stylish</span> Solutions</h2>
+          <p class="mt-3 reveal reveal-delay-1">
+            Every project starts with listening. We design systems around how you
+            actually live and work, then back them with honest pricing and
+            responsive lifetime support.
+          </p>
+          <div class="row g-3 mt-2">
+            <div class="col-sm-6 reveal reveal-delay-1">
+              <div class="check-item"><i class="bi bi-patch-check-fill"></i><div><h6>Advance Power Solar</h6></div></div>
+            </div>
+            <div class="col-sm-6 reveal reveal-delay-1">
+              <div class="check-item"><i class="bi bi-patch-check-fill"></i><div><h6>Trusted Solar Company</h6></div></div>
+            </div>
+            <div class="col-sm-6 reveal reveal-delay-2">
+              <div class="check-item"><i class="bi bi-patch-check-fill"></i><div><h6>Professional Engineers</h6></div></div>
+            </div>
+            <div class="col-sm-6 reveal reveal-delay-2">
+              <div class="check-item"><i class="bi bi-patch-check-fill"></i><div><h6>Sustainable Energy</h6></div></div>
+            </div>
+          </div>
+          <a href="services.html" class="btn-brand-dark mt-4 reveal reveal-delay-3">Learn More</a>
+        </div>
+        <div class="col-lg-6 reveal reveal-delay-1">
+          <div class="svc-card p-4 text-center">
+            <div class="team-photo rounded-4 mb-3"><img src="assets/img/person.svg" alt="" class="person-glyph"></div>
+            <h4 class="h5 mb-1">Michael Brown</h4>
+            <div class="team-role mb-3">Director</div>
+            <p class="mb-0 px-lg-4">
+              "Our mission has never changed: make renewable energy the easiest
+              choice a family or business can make."
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= Vision & Mission ======= -->
+  <section class="py-5">
+    <div class="container py-lg-4">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-6 order-lg-2">
+          <span class="section-tag reveal">Vision &amp; Mission</span>
+          <h2 class="section-title mt-2 reveal">Renewable Energy for a <span class="script-accent">Sustainable</span> Future</h2>
+          <p class="mt-3 reveal reveal-delay-1">
+            Our vision is a grid where every rooftop is a power plant and every
+            neighbourhood shares clean electricity. Our mission is to get there
+            one careful, well-engineered installation at a time.
+          </p>
+          <a href="services.html" class="link-more reveal reveal-delay-2">Our Products <i class="bi bi-arrow-right"></i></a>
+        </div>
+        <div class="col-lg-6 order-lg-1 reveal">
+          <img src="assets/img/about-main.svg" alt="Engineer installing solar panels" class="w-100 rounded-4 shadow">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= Feature grid ======= -->
+  <section class="bg-tint-brand py-5">
+    <div class="container py-lg-4">
+      <div class="text-center mb-5">
+        <span class="section-tag reveal">What Drives Us</span>
+        <h2 class="section-title mt-2 reveal">Energy Principles We <span class="script-accent">Live By</span></h2>
+      </div>
+      <div class="row g-4">
+        <div class="col-sm-6 col-lg-3 reveal">
+          <div class="icon-box text-center">
+            <span class="ib-icon"><i class="bi bi-cpu"></i></span>
+            <h5 class="h6 mt-3">Advance Technology</h5>
+            <p class="mb-0 small">Modern panels, inverters and monitoring on every job.</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3 reveal reveal-delay-1">
+          <div class="icon-box text-center">
+            <span class="ib-icon"><i class="bi bi-arrow-repeat"></i></span>
+            <h5 class="h6 mt-3">Sustainability Energy</h5>
+            <p class="mb-0 small">Designed for decades of clean, dependable output.</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3 reveal reveal-delay-2">
+          <div class="icon-box text-center">
+            <span class="ib-icon"><i class="bi bi-lightning-charge"></i></span>
+            <h5 class="h6 mt-3">Modern Energy</h5>
+            <p class="mb-0 small">Smart storage and automation that fit modern life.</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3 reveal reveal-delay-3">
+          <div class="icon-box text-center">
+            <span class="ib-icon"><i class="bi bi-tree"></i></span>
+            <h5 class="h6 mt-3">Eco Energy</h5>
+            <p class="mb-0 small">Every install shrinks a footprint and grows a habit.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= Team ======= -->
+  <section class="py-5">
+    <div class="container py-lg-4">
+      <div class="text-center mb-5">
+        <span class="section-tag reveal">Management</span>
+        <h2 class="section-title mt-2 reveal">Meet the <span class="script-accent">Sunharbor</span> Team</h2>
+      </div>
+      <div class="row g-4">
+        <div class="col-sm-6 col-lg-4 reveal">
+          <div class="team-card">
+            <div class="team-photo"><img src="assets/img/person.svg" alt="" class="person-glyph"></div>
+            <h5 class="h6 mt-3 mb-1">Michael Brown</h5>
+            <div class="team-role">Director</div>
+            <div class="team-social d-flex justify-content-center gap-2 mt-3">
+              <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+              <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+              <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 reveal reveal-delay-1">
+          <div class="team-card">
+            <div class="team-photo alt"><img src="assets/img/person.svg" alt="" class="person-glyph"></div>
+            <h5 class="h6 mt-3 mb-1">Nicholas Sparks</h5>
+            <div class="team-role">Vice Director</div>
+            <div class="team-social d-flex justify-content-center gap-2 mt-3">
+              <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+              <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+              <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 reveal reveal-delay-2">
+          <div class="team-card">
+            <div class="team-photo"><img src="assets/img/person.svg" alt="" class="person-glyph"></div>
+            <h5 class="h6 mt-3 mb-1">Nikita Burrows</h5>
+            <div class="team-role">Vice Director</div>
+            <div class="team-social d-flex justify-content-center gap-2 mt-3">
+              <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+              <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+              <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 reveal">
+          <div class="team-card">
+            <div class="team-photo alt"><img src="assets/img/person.svg" alt="" class="person-glyph"></div>
+            <h5 class="h6 mt-3 mb-1">Michael Wayne</h5>
+            <div class="team-role">General Manager</div>
+            <div class="team-social d-flex justify-content-center gap-2 mt-3">
+              <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+              <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+              <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 reveal reveal-delay-1">
+          <div class="team-card">
+            <div class="team-photo"><img src="assets/img/person.svg" alt="" class="person-glyph"></div>
+            <h5 class="h6 mt-3 mb-1">Nadia Rosenthal</h5>
+            <div class="team-role">Manager</div>
+            <div class="team-social d-flex justify-content-center gap-2 mt-3">
+              <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+              <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+              <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 reveal reveal-delay-2">
+          <div class="team-card">
+            <div class="team-photo alt"><img src="assets/img/person.svg" alt="" class="person-glyph"></div>
+            <h5 class="h6 mt-3 mb-1">Alex Warren</h5>
+            <div class="team-role">Manager</div>
+            <div class="team-social d-flex justify-content-center gap-2 mt-3">
+              <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+              <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+              <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= Why choose us ======= -->
+  <section class="bg-light-brand py-5">
+    <div class="container py-lg-4">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-6 reveal">
+          <img src="assets/img/about-float.svg" alt="Wind farm at sunset" class="w-100 rounded-4 shadow">
+        </div>
+        <div class="col-lg-6">
+          <span class="section-tag reveal">Why Choose Us</span>
+          <h2 class="section-title mt-2 reveal">Great Eco Energy, <span class="script-accent">Proven</span> Technology</h2>
+          <p class="mt-3 reveal reveal-delay-1">
+            Certifications, warranties and a service desk that actually answers.
+            When you choose Sunharbor you get a partner for the life of your system.
+          </p>
+          <div class="d-flex flex-column gap-3 mt-4">
+            <div class="check-item reveal reveal-delay-1">
+              <i class="bi bi-check-circle-fill"></i>
+              <div><h6>Great Eco Energy</h6><p class="mb-0 small">Clean generation matched to your real usage patterns.</p></div>
+            </div>
+            <div class="check-item reveal reveal-delay-2">
+              <i class="bi bi-check-circle-fill"></i>
+              <div><h6>Sustainability Technology</h6><p class="mb-0 small">Tier-one hardware with 25-year performance warranties.</p></div>
+            </div>
+            <div class="check-item reveal reveal-delay-3">
+              <i class="bi bi-check-circle-fill"></i>
+              <div><h6>Lifetime Support</h6><p class="mb-0 small">Monitoring, maintenance and honest advice, always.</p></div>
+            </div>
+          </div>
+          <a href="contact.html" class="btn-brand mt-4 reveal reveal-delay-3">Request Quote</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= CTA band ======= -->
+  <section class="py-5">
+    <div class="container">
+      <div class="cta-band p-4 p-lg-5 reveal">
+        <div class="row align-items-center position-relative g-4">
+          <div class="col-lg-8">
+            <h2 class="h3 mb-2">Ready to Switch to Clean Energy?</h2>
+            <p class="mb-0 text-white-50">Book a free survey and get your custom system design within a week.</p>
+          </div>
+          <div class="col-lg-4 text-lg-end">
+            <a href="contact.html" class="btn-brand-light">Get Started</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= Footer ======= -->
+  <footer class="footer pt-5">
+    <div class="container">
+      <div class="row g-4 pb-4">
+        <div class="col-lg-4">
+          <a class="brand-logo mb-3" href="index.html">
+            <svg width="32" height="32" viewBox="0 0 36 36" aria-hidden="true">
+              <path d="M17 32 C8 24 5 12 14 3 C19 10 20 22 17 32 Z" fill="#1D6E49"/>
+              <path d="M19 32 C28 25 31 13 23 4 C18 11 16 22 19 32 Z" fill="#31C36C"/>
+            </svg>
+            <span>Sunharbor</span>
+          </a>
+          <p class="mt-3 pe-lg-4">
+            Clean, dependable renewable energy for homes and industry. From the first
+            survey to lifetime maintenance, we make going green simple.
+          </p>
+          <div class="footer-social d-flex gap-2 mt-3">
+            <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" aria-label="TikTok"><i class="bi bi-tiktok"></i></a>
+            <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+        <div class="col-6 col-lg-2">
+          <h5>Quicklinks</h5>
+          <ul>
+            <li><a href="index.html"><i class="bi bi-chevron-right"></i>Homepage</a></li>
+            <li><a href="about.html"><i class="bi bi-chevron-right"></i>About Us</a></li>
+            <li><a href="services.html"><i class="bi bi-chevron-right"></i>Service</a></li>
+            <li><a href="contact.html"><i class="bi bi-chevron-right"></i>Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-lg-2">
+          <h5>Services</h5>
+          <ul>
+            <li><a href="services.html"><i class="bi bi-chevron-right"></i>Solar Panels</a></li>
+            <li><a href="services.html"><i class="bi bi-chevron-right"></i>Wind Turbine</a></li>
+            <li><a href="services.html"><i class="bi bi-chevron-right"></i>Eco Battery</a></li>
+            <li><a href="services.html"><i class="bi bi-chevron-right"></i>Smart Home</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4">
+          <h5>Newsletter</h5>
+          <p class="small">Get monthly tips on saving energy and the latest green tech news.</p>
+          <form class="d-flex gap-2 newsletter-form" novalidate>
+            <label class="visually-hidden" for="newsletterEmail">Email address</label>
+            <input type="email" id="newsletterEmail" class="form-control newsletter-input" placeholder="Your email address" required>
+            <button class="btn-brand" type="submit" aria-label="Subscribe"><i class="bi bi-send"></i></button>
+          </form>
+          <ul class="mt-3">
+            <li><i class="bi bi-geo-alt text-secondary-brand me-2"></i>234 Triumph, Los Angeles, CA</li>
+            <li><i class="bi bi-telephone text-secondary-brand me-2"></i>+1 876 43987 247</li>
+            <li><i class="bi bi-envelope text-secondary-brand me-2"></i>hello@sunharbor.energy</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom py-3 d-flex flex-column flex-md-row justify-content-between gap-2">
+        <span>© 2026 Sunharbor. All rights reserved.</span>
+        <span><a href="#">Terms</a> · <a href="#">Conditions</a> · <a href="#">Privacy</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" class="back-to-top" id="backToTop" aria-label="Back to top"><i class="bi bi-arrow-up"></i></a>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

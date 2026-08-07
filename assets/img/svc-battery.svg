@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" role="img" aria-label="Eco battery storage illustration">
+  <defs>
+    <linearGradient id="b1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e8f8ee"/><stop offset="1" stop-color="#cdeeda"/>
+    </linearGradient>
+    <linearGradient id="b2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#31C36C"/><stop offset="1" stop-color="#1e8f4d"/>
+    </linearGradient>
+  </defs>
+  <rect width="480" height="300" fill="url(#b1)"/>
+  <circle cx="404" cy="58" r="28" fill="#FFCC28"/>
+  <g transform="translate(150,60)">
+    <rect x="62" y="-14" width="56" height="16" rx="8" fill="#0E2A3B"/>
+    <rect x="0" y="0" width="180" height="200" rx="22" fill="#0E2A3B"/>
+    <rect x="14" y="14" width="152" height="172" rx="14" fill="#16394f"/>
+    <rect x="24" y="132" width="132" height="44" rx="10" fill="url(#b2)"/>
+    <rect x="24" y="80" width="132" height="44" rx="10" fill="url(#b2)"/>
+    <rect x="24" y="28" width="132" height="44" rx="10" fill="url(#b2)" opacity=".35"/>
+    <path d="M96,52 L80,106 h18 l-12,46 34,-62 h-19 l14,-38 Z" fill="#FFCC28"/>
+  </g>
+  <g stroke="#31C36C" stroke-width="3" fill="none" opacity=".6">
+    <path d="M60,220 q22,-30 44,0 q22,30 44,0"/>
+    <path d="M340,230 q20,-26 40,0 q20,26 40,0"/>
+  </g>
+  <path d="M0,266 Q140,242 280,268 T480,262 V300 H0 Z" fill="#31C36C"/>
+</svg>
