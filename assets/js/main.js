@@ -1,5 +1,5 @@
 /* ============================================================
-   SunHarbor — main.js
+   Eltires — main.js
    Navbar shadow, scroll reveal, animated counters,
    back-to-top, contact + newsletter form feedback
    ============================================================ */
@@ -131,4 +131,24 @@
       }, 3000);
     });
   });
+})();
+
+/* ---------- Active nav highlighting (static header) ---------- */
+(function () {
+  "use strict";
+  var path = (location.pathname.split("/").pop() || "index").replace(/\.php$/, "") || "index";
+  document.querySelectorAll(".navbar-nav .nav-link:not(.dropdown-toggle)").forEach(function (link) {
+    var href = (link.getAttribute("href") || "").replace(/^\.\/$/, "index");
+    if (href === path) link.classList.add("active");
+  });
+  var toggle = document.getElementById("productsDropdown");
+  if (toggle) {
+    if (path === "product") toggle.classList.add("active");
+    document.querySelectorAll(".products-menu .dropdown-item").forEach(function (a) {
+      if ((a.getAttribute("href") || "") === path) {
+        toggle.classList.add("active");
+        a.classList.add("active");
+      }
+    });
+  }
 })();

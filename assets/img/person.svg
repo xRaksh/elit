@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130 170" role="img" aria-label="Team member silhouette">
-  <g>
-    <circle cx="65" cy="52" r="34" fill="#0E2A3B"/>
-    <path d="M12,170 C12,116 42,100 65,100 C88,100 118,116 118,170 Z" fill="#0E2A3B"/>
-    <circle cx="65" cy="52" r="34" fill="#2a5e80" opacity=".35"/>
-  </g>
-</svg>
